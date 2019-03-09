@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port:8201
+  port: 8201
 spring:
   profiles: dev   #development
   application:
@@ -15,7 +15,7 @@ eureka:
        defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
-  port:8202
+  port: 8202
 spring:
   profiles: test      #test
   application:
