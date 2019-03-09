@@ -1,4 +1,4 @@
-﻿spring:
+spring:
   profiles:
     active:
     - dev
@@ -6,11 +6,11 @@
 spring:
   profiles: dev   #development
   application:
-    name:microservice-config-dev
+    name: microservice-config-dev
 ---
 spring:
   profiles: test      #test
   application:
-    name:microservice-config-test
+    name: microservice-config-test
 
 #save as UTF-8
